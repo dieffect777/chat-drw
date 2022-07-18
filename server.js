@@ -21,6 +21,6 @@ io.on("connection", function (socket) {
   });
 });
 
-http.listen(PORT, function () {
+app.listen(PORT, function () {
   console.log(`Server Started on PORT: ${PORT}`);
 });
